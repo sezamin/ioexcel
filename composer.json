@@ -1,0 +1,23 @@
+{
+    "name": "sezamin/ioexcel",
+    "description": "Import Export Excel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sezamin\\IOExcel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egamberdi Shukurov"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.23",
+        "fakerphp/faker": "^1.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
